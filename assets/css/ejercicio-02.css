@@ -1,0 +1,35 @@
+.bg-warning{
+    height: 20rem;
+}
+
+.bg-info{
+    height: 7rem;
+}
+
+.bg-dark{
+    height: 5rem;
+}
+
+@media (max-width: 768px) { 
+    .bg-warning{
+        height: 15rem;
+    }
+    .bg-info{
+        height: 5rem;
+    }
+    .wrapper{
+        display: flex;
+    }
+}
+
+@media (max-width: 320px) { 
+    .bg-warning{
+        height: 10rem;
+    }
+    .bg-info{
+        height: 4rem;
+    }
+    .bg-dark{
+        height: 3rem;
+    }
+}
